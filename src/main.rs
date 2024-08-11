@@ -67,7 +67,7 @@ fn main() {
 
     loop {
         board.print();
-        println!("Player {}, enter your move (row and column): ", current_player);
+        println!("Player {}, enter your move (row column): ", current_player);
 
         let mut input = String::new();
         io::stdout().flush().unwrap();
